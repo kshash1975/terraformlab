@@ -1,0 +1,36 @@
+
+##Use the min function to find the minimum of 53, 45, 23 and 34
+min(53,45,23,34)
+
+##Use the abs function to find the absolute value of -4
+abs(-4)
+
+##Use the format function to print Hello World ! by inserting "World" into "Hello %s!"
+format("Hello, %s!", "World")
+
+##Use split function to split the words in "foo,bar,horn" based on comma separator
+split(",", "foo,bar,horn")
+
+##Use the substr function to print first 4 characters from "hello world"
+substr("hello world", 0, 4)
+
+##Use concat function to concatenate two lists - ["a",""] and ["b","c"]
+concat(["a", ""], ["b", "c"])
+
+##Use merge function to merge two maps - {a="b", c="d"} and {e="f", c="z"}
+merge({a="b", c="d"}, {e="f", c="z"})
+
+##use slice function to print first three items of the list ["a", "b", "c", "d"]
+slice(["a", "b", "c", "d"], 0, 3)
+
+##print current timestamp
+timestamp()
+
+##use formatdate to print the following date in MMM DD,YYYY format 2018-01-02T23:12:01Z
+formatdate("MMM DD, YYYY", "2018-01-02T23:12:01Z")
+
+##Use cidrsubnet function to create the subnet 172.18.0.0/16 from the n/w address - 172.16.0.0/12
+cidrsubnet("172.16.0.0/12", 4, 2)
+
+## use tostring function to convert the boolean true to a string
+tostring(true)
